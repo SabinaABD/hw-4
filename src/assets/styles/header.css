@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.container {
+    max-width: 1800px;
+    padding: 16px 32px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.header__logo-img {
+    height: 55px;
+}
+
+.header__menu {
+    display: flex;
+    gap: 16px;
+}
+
+.header__menu-items {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.header__menu-item {
+    cursor: pointer;
+}
+
+.header__account {
+    display: flex;
+    gap: 16px;
+}
+
+.header__account-image {
+    width: 100%;
+    height: 100%;
+}
+
+.header__account-info {
+    font-family: Poppins;
+    color: #07143B;
+}
+
+.header__basket-value {
+    display: inline;
+}
+
+.header__account-name {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.header__account-position {
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.header__search-img {
+    width: 100%;
+    height: 100%;
+}
+
+.header__menu-img {
+    width: 100%;
+    height: 100%;
+}
+
+.login {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgba(234, 106, 18, 0.7);
+    border-radius: 24px;
+    padding: 10px;
+    cursor: pointer;
+}

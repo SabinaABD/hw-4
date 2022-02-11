@@ -1,0 +1,23 @@
+
+
+.sidebar__link.active {
+    color: #ea6a12;
+}
+.sidebar__link {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(241, 241, 241, 0.1);
+    transition: 0.3s;
+    padding: 10px 0;
+}
+.sidebar__link:last-child {
+    border-bottom: 1px solid transparent;
+}
+.sidebar__link:hover {
+    transition: 0.3s;
+    color: #ea6a12;
+}
+.sidebar__link:hover:last-child {
+    border-bottom: 1px solid transparent;
+}

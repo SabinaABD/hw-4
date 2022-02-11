@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}
+
+input {
+    border: none;
+    background-color: white;
+    padding: 10px;
+    outline: none;
+
+}
+
+input::placeholder {
+    color: rgba(141, 154, 166, 1);
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+a {
+    color: inherit;
+}
+
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 24px;
+    padding: 40px;
+    z-index: 5;
+}
+
+.login__form-title {
+    font-family: Playfair;
+    font-size: 40px;
+    line-height: 52px;
+    color: #07143B;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.login__form-subtitle {
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 28px;
+    color: #959895;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.login__form-inputs {
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.login__form-item {
+    width: 47%;
+}
+
+.login__form-input {
+    border: 1px solid #EA6A12;
+    margin-bottom: 16px;
+    text-align: left;
+    width: 100%;
+    height: 40px;
+    border-radius: 24px;
+    padding: 0 10px;
+}
+
+.login__form-input::placeholder {
+
+}
+
+.login__form-label {
+    font-size: 16px;
+    line-height: 28px;
+    color: #959895;
+    margin-bottom: 8px;
+    display: block;
+
+}
+
+
+.login__form-input-password {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.sign-up_input-agree {
+    justify-content: center;
+}
+
+.login__form-input-password-remember {
+    display: flex;
+    align-items: center;
+}
+
+.login__form-sign-in {
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+.login__form-sign-in-btn {
+    width: 190px;
+    text-align: center;
+    color: white;
+    background-color: #EA6A12;
+    border-radius: 24px;
+    padding: 8px 24px;
+    font-size: 20px;
+}
+
+

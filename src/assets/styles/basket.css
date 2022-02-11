@@ -1,0 +1,133 @@
+button {
+    cursor: pointer;
+}
+
+.basket-wrapper {
+    padding: 50px;
+}
+
+.basket__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.basket__header-title {
+    font-family: Arial;
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.basket__header-title-img {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+
+}
+
+.basket__header-title-clear {
+    display: flex;
+    align-items: center;
+    color: rgba(182, 182, 182, 1);
+    font-size: 16px;
+}
+
+.basket__header-title-clear-img {
+    margin-right: 15px;
+}
+
+.basket__content-item {
+    padding: 30px 0;
+    border-top: 1px solid rgba(244, 244, 244, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+}
+
+.basket__content-item-img {
+    width: 80px;
+    height: 80px;
+    background-color: #EA6A12;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.basket__content-item-img-img {
+    width: 80px;
+    height: 80px;
+}
+
+.basket__content-item-name {
+    font-weight: 700;
+    padding-right: 50px;
+    margin-right: 70px;
+}
+
+.add__count-number-basket {
+    font-weight: 700;
+    color: #07143B;
+    font-size: 22px;
+}
+
+.add__count-basket {
+    margin-right: 95px;
+}
+
+.basket__content-item-price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin-right: 95px;
+}
+
+.basket__content-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+
+.basket__content-total-amount span {
+    font-weight: 700;
+}
+
+.basket__content-total-sum span {
+    font-weight: 700;
+    color: #EA6A12;
+}
+
+.basket__content-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.basket__content-footer-back {
+    padding: 18px 30px;
+    border: 1px solid rgba(244, 244, 244, 1);
+    border-radius: 30px;
+    text-align: center;
+    color: rgba(202, 202, 202, 1);
+    font-size: 16px;
+}
+
+.basket__content-footer-back-img {
+    margin-right: 15px;
+}
+
+.basket__content-footer-pay {
+    padding: 18px 30px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #EA6A12;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
