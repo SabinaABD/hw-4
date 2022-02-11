@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Playfair';
+  src: url('../fonts/PlayfairDisplay-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+.greeting {
+  background-image: url(../images/greeting_bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: pink;
+  border-radius: 24px;
+}
+
+.greeting__container {
+  padding: 93px 0 74px 82px;
+}
+
+.greeting__title1 {
+  font-family: Poppins;
+  font-size: 13px;
+  line-height: 23px;
+  color: rgba(234, 106, 18, 1);
+  margin-bottom: 24px;
+}
+
+.greeting__main-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: rgba(7, 20, 59, 1);
+  font-family: Playfair;
+  margin-bottom: 24px;
+}
+
+.greeting__title2 {
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 28px;
+  color: #959895;
+  margin-bottom: 24px;
+}
+
+.greeting__title2 span {
+  color: #EA6A12;
+}
+
+.greeting__button {
+  padding: 10px 24px;
+  color: white;
+  font-family: Poppins;
+  background-color: rgba(234, 106, 18, 1);
+  font-size: 16px;
+  line-height: 28px;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,88 @@
+input {
+  border: none;
+  background-color: transparent;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.about__inner {
+  max-width: 100%;
+  background-image: url(../images/login-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 100px 100px;
+}
+
+.about__form  {
+  margin: 0 auto 233px;
+}
+
+
+.about__logo {
+  width: 185px;
+  height: 58px;
+  margin-bottom: 40px;
+}
+
+.about__form-title {
+  font-family: Playfair;
+  font-size: 40px;
+  line-height: 52px;
+  color: #07143B;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.about__form-subtitle {
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 28px;
+  color: #959895;
+  margin-bottom: 16px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.about__form-image {
+  border-radius: 50px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.about__form-images-item {
+  width: 150px;
+  height: 150px;
+}
+
+.about__form-contacts {
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.about__form-sign-in-socialmedia {
+  justify-content: center;
+  display: flex;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.login__form-sign-in-socialmedia-item {
+  cursor: pointer;
+}
+
+.about__form-sign-in-new-account {
+  text-align: center;
+}
+
+.about__form-sign-in-new-account span{
+  color: #EA6A12;
+  cursor: pointer;
+}

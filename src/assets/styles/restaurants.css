@@ -1,0 +1,198 @@
+a {
+  text-decoration: none;
+}
+
+.restaurants__header {
+  margin-bottom: 40px;
+  padding: 24px;
+}
+.restaurants__title {
+  font-family: Playfair;
+  font-size: 40px;
+  line-height: 52px;
+  color: #07143b;
+}
+
+.view-all {
+  display: flex;
+  align-items: center;
+}
+.view-all__link {
+  text-decoration: none;
+  color: black;
+  margin-right: 8px;
+  font-size: 16px;
+  flex-wrap: wrap;
+  line-height: 28px;
+  cursor: pointer;
+}
+.restaurant__food-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 40px;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.restaurant__food-item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  border-radius: 24px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.restaurant__food-item-img {
+  width: 70px;
+  height: 70px;
+}
+
+.restaurant__food-item-price {
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+
+.restaurant__food-item-view-img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.restaurant__food-item_active {
+  background-color: rgba(234, 106, 18, 0.7);
+}
+
+.restaurant__food-item-title {
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ea6a12;
+}
+
+.restaurant__food-item-title_active {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.food-page {
+  display: flex;
+  align-items: flex-start;
+}
+
+
+.food-details {
+  display: inline-block;
+  background-color: rgba(234, 106, 18, 1);
+  border-radius: 24px;
+  padding: 40px;
+  width: 90%;
+}
+
+.food-page-back {
+  margin-right: 20px;
+  padding: 20px;
+  background-color: #EA6A12;
+  border-radius: 24px;
+}
+
+.food-page-back-link {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.food-details-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.food-details__img-img {
+  width: 300px;
+  height: 300px;
+}
+
+.food-details__content-title {
+  font-family: Poppins;
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.food-details__content-text {
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ea6a12;
+  margin-bottom: 20px;
+}
+
+.food-details__content-in-stock {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+  padding-bottom: 12px;
+}
+
+.food-details__inline {
+  display: inline;
+}
+
+.food-details__add {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  align-items: center;
+}
+
+.add__count {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.add__count-number {
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+  color: white;
+}
+
+.add__count-btn {
+  width: 25px;
+  height: 25px;
+}
+
+.add__count-number-total {
+
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #EA6A12;
+}
+
+.add__basket {
+  width: 40px;
+  height: 40px;
+}
